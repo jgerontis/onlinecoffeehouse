@@ -17,8 +17,8 @@ function editPost(post){
 
   console.log(post["id"]);
   var PostId = post["id"];
-  var postFName = post["firstName"];
-  var postLName = post["lastName"];
+  var postFName = post["firstname"];
+  var postLName = post["lastname"];
   var postMessage = newMessageText;
   var postLocation = post["location"]
   var postDate = new Date();
@@ -216,10 +216,10 @@ function loadPosts () {
               var descriptorTextHolder = document.createElement("div");
               var listItem = document.createElement("li");
       
-              var fName = post["firstName"];
+              var fName = post["firstname"];
               descriptorText += fName + " ";
       
-              var lName = post["lastName"];
+              var lName = post["lastname"];
               descriptorText += lName + " from ";
       
               var location = post["location"];
@@ -267,7 +267,7 @@ function loadPosts () {
               deleteButton.innerHTML = "Delete";
               deleteButton.onclick = function () {
                 console.log("you clicked me.", post);
-                if (confirm("Are you sure you want to delete " + post["firstName"] + "'s post?")) {
+                if (confirm("Are you sure you want to delete " + post["firstname"] + "'s post?")) {
                   deletePostFromServer(post["id"]);
                 }
               };
