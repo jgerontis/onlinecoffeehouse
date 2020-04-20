@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
+}
+
+#top-border{
+    font-size: 30pt;
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    height: 20%;
+    background-color: linen;
+    box-shadow: 3px 3px black;  
+}
+
+#content{
+    display: none;
+    margin: auto;
+    max-width: 50%;
+    height: 50%;
+    max-height: 400px;
+    opacity: 0.9;
+    overflow: auto;
+    text-align: left;
+}
+
+#loginAndRegister{
+    margin: auto;
+    display: block;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#loginFields{
+    display: none;
+    margin: auto;
+    max-width: 30%;
+    margin: auto;
+}
+
+#regFields{
+    display: none;
+    margin: auto;
+    max-width: 30%;
+    margin: auto;
+}
+
+#createArea{
+    display: none;
+    height: 20%;
+    max-height: 100px;
+}
+
+.button {
+    background-color: linen; /* Green */
+    border: none;
+    box-shadow: 3px 3px black;  
+    color: black;
+    padding: 15px 32px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    width: 30%;
+    min-width: 30%;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 43px;
+    padding: 12px 2px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    overflow: visible;
+    resize: none;
+}
+
+input[type=submit]{
+    display: block;
+    margin: auto;
+    width: auto;
+}
+
+ul{
+    height: 50%;
+    list-style: none;
+    text-align: left;
+    padding: 1% 2.5%;
+}
+
+li{
+    background-color: linen;
+    box-shadow: darkgray;
+    margin: auto;
+    margin-bottom: 8px;
+    max-width: 80%;
+    padding-left: 10%;
+}
+
+.editField {
+    max-width: 80%;
+}

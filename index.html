@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Online Coffee House</title>
+    <link rel="stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div id="top-border">Online Coffee House</div>
+        <br />
+        <div id ="loginAndRegister">
+            <input id = "loginButton" type="submit" value="Login" class = "button">
+            <div id = "loginFields">
+                <input id = "loginEmailField" type="text" placeholder="email@example.com">
+                <input id = "loginPasswordField" type="password" placeholder="password">
+                <input id = "loginSubmit" type="submit" value="Submit">
+            </div>
+
+            <br />
+            <br />
+
+            <input id = "registerButton" type ="submit" value="Register" class = "button">
+            <div id = "regFields">
+                <input id = "regFirstNameField" type="text" placeholder="First Name">
+                <input id = "regLastNameField" type="text" placeholder="Last Name">
+                <input id = "regEmailField" type="text" placeholder="email@example.com">
+                <input id = "regPasswordField" type="password" placeholder="password">
+                <input id = "regSubmit" type="submit" value="Submit">
+            </div>
+
+        </div>
+        <ul id="content"></ul>
+        <br />
+        <div id = "createArea">
+            <textarea id = "post-fName" placeholder="First Name"></textarea>
+            <textarea id = "post-lName" placeholder="Last Name"></textarea>
+            <textarea id = "post-message" placeholder="How do you make your coffee special?"></textarea>
+            <textarea id = "post-location" placeholder="Where are you from?"></textarea>
+            <input id = "addButton" type="submit" value="Submit">
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
