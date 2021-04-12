@@ -1,6 +1,8 @@
 # Online Coffee House
 
-(This was a solo project.)
+Made for my final project in CS 3200 for Dixie State University.
+Basic online (now-offline) forum where users can create an account
+and post about how they like their coffee.
 
 ## Resources
 
